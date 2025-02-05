@@ -287,16 +287,12 @@ export default function Course() {
 
 
 <section>
-<div className="bg-dark text-white relative grid items-center  items-start justify-center gap-x-6 px-6 py-12 pb-20 md:grid-cols-12 lg:px-20"
-
-id="">
+<div className="bg-dark text-white relative grid items-center  items-start justify-center  md:grid-cols-12 lg:px-20"  id="">
 <div className="absolute inset-0 hidden h-full w-full opacity-5 md:block">
   <span style={{ boxSizing: "border-box" , display: "block" , overflow: "hidden" , width: "initial" ,
     height: "initial" , background: "none" , opacity: 1, border: 0, margin: 0, padding: 0, position: "absolute" , top:
     0, left: 0, bottom: 0, right: 0 }}>
-    <img sizes="100vw"
-      
-      src="/src/features/courses/images/3d-grid.webp" decoding="async" data-nimg="fill"
+    <img sizes="100vw" src="/src/features/courses/images/3d-grid.webp" decoding="async" data-nimg="fill"
       className="h-full w-full" style={{ position: "absolute" , top: 0, left: 0, bottom: 0, right: 0,
       boxSizing: "border-box" , padding: 0, border: "none" , margin: "auto" , display: "block" , width: 0, height: 0,
       minWidth: "100%" , maxWidth: "100%" , minHeight: "100%" , maxHeight: "100%" , objectFit: "cover" }} />
@@ -323,45 +319,20 @@ id="">
             </linearGradient>
           </defs>
         </svg>
-        <div className="star-container" style={{ position: "relative" , display: "inline-block" ,
-          verticalAlign: "middle" , paddingRight: 4 }}>
-          <svg viewBox="0 0 51 48" className="widget-svg" style={{ width: 20, height: 20,
-            transition: "transform .2s ease-in-out" }}>
-            <path className="star" style={{ fill: "#FDB022" , transition: "fill .2s ease-in-out" }}
-              d="m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z" />
-          </svg>
+        <div className="star-container" style={{ position: "relative" , display: "inline-block" , verticalAlign: "middle" , paddingRight: 4 }}>
+            <svg viewBox="0 0 51 48" className="widget-svg" style={{ width: 20, height: 20,transition: "transform .2s ease-in-out" }}> <path className="star" style={{ fill: "#FDB022" , transition: "fill .2s ease-in-out" }} d="m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z" /></svg>
         </div>
-        <div className="star-container" style={{ position: "relative" , display: "inline-block" ,
-          verticalAlign: "middle" , paddingLeft: 4, paddingRight: 4 }}>
-          <svg viewBox="0 0 51 48" className="widget-svg" style={{ width: 20, height: 20,
-            transition: "transform .2s ease-in-out" }}>
-            <path className="star" style={{ fill: "#FDB022" , transition: "fill .2s ease-in-out" }}
-              d="m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z" />
-          </svg>
+        <div className="star-container" style={{ position: "relative" , display: "inline-block" , verticalAlign: "middle" , paddingLeft: 4, paddingRight: 4 }}>
+            <svg viewBox="0 0 51 48" className="widget-svg" style={{ width: 20, height: 20, transition: "transform .2s ease-in-out" }}> <path className="star" style={{ fill: "#FDB022" , transition: "fill .2s ease-in-out" }}   d="m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z" /></svg>
         </div>
-        <div className="star-container" style={{ position: "relative" , display: "inline-block" ,
-          verticalAlign: "middle" , paddingLeft: 4, paddingRight: 4 }}>
-          <svg viewBox="0 0 51 48" className="widget-svg" style={{ width: 20, height: 20,
-            transition: "transform .2s ease-in-out" }}>
-            <path className="star" style={{ fill: "#FDB022" , transition: "fill .2s ease-in-out" }}
-              d="m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z" />
-          </svg>
+        <div className="star-container" style={{ position: "relative" , display: "inline-block" ,          verticalAlign: "middle" , paddingLeft: 4, paddingRight: 4 }}>
+            <svg viewBox="0 0 51 48" className="widget-svg" style={{ width: 20, height: 20, transition: "transform .2s ease-in-out" }}> <path className="star" style={{ fill: "#FDB022" , transition: "fill .2s ease-in-out" }}   d="m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z" /></svg>
         </div>
-        <div className="star-container" style={{ position: "relative" , display: "inline-block" ,
-          verticalAlign: "middle" , paddingLeft: 4, paddingRight: 4 }}>
-          <svg viewBox="0 0 51 48" className="widget-svg" style={{ width: 20, height: 20,
-            transition: "transform .2s ease-in-out" }}>
-            <path className="star" style={{ fill: "#FDB022" , transition: "fill .2s ease-in-out" }}
-              d="m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z" />
-          </svg>
+        <div className="star-container" style={{ position: "relative" , display: "inline-block" ,verticalAlign: "middle" , paddingLeft: 4, paddingRight: 4 }}> 
+            <svg viewBox="0 0 51 48" className="widget-svg" style={{ width: 20, height: 20, transition: "transform .2s ease-in-out" }}> <path className="star" style={{ fill: "#FDB022" , transition: "fill .2s ease-in-out" }}   d="m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z" /></svg>
         </div>
-        <div className="star-container" style={{ position: "relative" , display: "inline-block" ,
-          verticalAlign: "middle" , paddingLeft: 4 }}>
-          <svg viewBox="0 0 51 48" className="widget-svg multi-widget-selected" style={{ width: 20, height: 20,
-            transition: "transform .2s ease-in-out" }}>
-            <path className="star" style={{ fill: 'url("#starGrad102165315957198")' ,
-              transition: "fill .2s ease-in-out" }} d="m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z" />
-          </svg>
+        <div className="star-container" style={{ position: "relative" , display: "inline-block" , verticalAlign: "middle" , paddingLeft: 4 }}> 
+            <svg viewBox="0 0 51 48" className="widget-svg multi-widget-selected" style={{ width: 20, height: 20,   transition: "transform .2s ease-in-out" }}> <path className="star" style={{ fill: 'url("#starGrad102165315957198")' ,   transition: "fill .2s ease-in-out" }} d="m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z" /></svg>
         </div>
       </div>
     </div>
@@ -813,114 +784,114 @@ id="">
 <h1 className="text-black " style={{marginLeft:"13%"}}>Who we've helped</h1>
 
 <marquee scrollamount="15" behavior="alternate" direction="right"   className='' style={{marginTop:"-0%"}} >
-        <label className=""><img className="rounded-3 bg-white p-2 ms-5" width={'140px'} height={'100px'} src={accenture} /></label>
-        <label className=""><img className="rounded-3 bg-white p-2 ms-5" width={'140px'} height={'100px'} src={amazon} /></label>
-        <label className=""><img className="rounded-3 bg-white p-2 ms-5" width={'140px'} height={'100px'} src={biz2credit} /></label>
-        <label className=""><img className="rounded-3 bg-white p-2 ms-5" width={'140px'} height={'100px'} src={blenheim} /></label>
-        <label className=""><img className="rounded-3 bg-white p-2 ms-5" width={'140px'} height={'100px'} src={brigei2i} /></label>
-        <label className=""><img className="rounded-3 bg-white p-2 ms-5" width={'140px'} height={'100px'} src={capgemini} /></label>
-        <label className=""><img className="rounded-3 bg-white p-2 ms-5" width={'140px'} height={'100px'} src={citi} /></label>
+        <label className="" style={{width:"140",height:"100px"}}><img className="rounded-3 bg-white p-2 ms-5" width={'140px'} height={'100px'} src={accenture} /></label>
+        <label className="" style={{width:"140",height:"100px"}}><img className="rounded-3 bg-white p-2 ms-5" width={'140px'} height={'100px'} src={amazon} /></label>
+        <label className="" style={{width:"140",height:"100px"}}><img className="rounded-3 bg-white p-2 ms-5" width={'140px'} height={'100px'} src={biz2credit} /></label>
+        <label className="" style={{width:"140",height:"100px"}}><img className="rounded-3 bg-white p-2 ms-5" width={'140px'} height={'100px'} src={blenheim} /></label>
+        <label className="" style={{width:"140",height:"100px"}}><img className="rounded-3 bg-white p-2 ms-5" width={'140px'} height={'100px'} src={brigei2i} /></label>
+        <label className="" style={{width:"140",height:"100px"}}><img className="rounded-3 bg-white p-2 ms-5" width={'140px'} height={'100px'} src={capgemini} /></label>
+        <label className="" style={{width:"140",height:"100px"}}><img className="rounded-3 bg-white p-2 ms-5" width={'140px'} height={'100px'} src={citi} /></label>
         
-        <label className=""><img className="rounded-3 bg-white p-2 ms-5" width={'140px'} height={'100px'} src={converhytics} /></label>
-        <label className=""><img className="rounded-3 bg-white p-2 ms-5" width={'140px'} height={'100px'} src={genpact} /></label>
-        <label className=""><img className="rounded-3 bg-white p-2 ms-5" width={'140px'} height={'100px'} src={Google} /></label>
-        <label className=""><img className="rounded-3 bg-white p-2 ms-5" width={'140px'} height={'100px'} src={groww} /></label>
-        <label className=""><img className="rounded-3 bg-white p-2 ms-5" width={'140px'} height={'100px'} src={HDFC} /></label>
-        <label className=""><img className="rounded-3 bg-white p-2 ms-5" width={'140px'} height={'100px'} src={Kmart} /></label>
-        <label className=""><img className="rounded-3 bg-white p-2 ms-5" width={'140px'} height={'100px'} src={KMGP} /></label>
-        <label className=""><img className="rounded-3 bg-white p-2 ms-5" width={'140px'} height={'100px'} src={mahindra} /></label>
-        <label className=""><img className="rounded-3 bg-white p-2 ms-5" width={'140px'} height={'100px'} src={Marketine} /></label>
-        <label className=""><img className="rounded-3 bg-white p-2 ms-5" width={'140px'} height={'100px'} src={Microsoft} /></label>
-        <label className=""><img className="rounded-3 bg-white p-2 ms-5" width={'140px'} height={'100px'} src={MIQ} /></label>
-        <label className=""><img className="rounded-3 bg-white p-2 ms-5" width={'140px'} height={'100px'} src={Netflix} /></label>
-        <label className=""><img className="rounded-3 bg-white p-2 ms-5" width={'140px'} height={'100px'} src={Novartis} /></label>
-        <label className=""><img className="rounded-3 bg-white p-2 ms-5" width={'140px'} height={'100px'} src={paisabazzar} /></label>
-        <label className=""><img className="rounded-3 bg-white p-2 ms-5" width={'140px'} height={'100px'} src={Quantiphi} /></label>
-        <label className=""><img className="rounded-3 bg-white p-2 ms-5" width={'140px'} height={'100px'} src={Target} /></label>
-        <label className=""><img className="rounded-3 bg-white p-2 ms-5" width={'140px'} height={'100px'} src={Tatainsight} /></label>
-        <label className=""><img className="rounded-3 bg-white p-2 ms-5" width={'140px'} height={'100px'} src={TATA} /></label>
-        <label className=""><img className="rounded-3 bg-white p-2 ms-5" width={'140px'} height={'100px'} src={ValueLabs} /></label>
-        <label className=""><img className="rounded-3 bg-white p-2 ms-5" width={'140px'} height={'100px'} src={Vedantu} /></label>
-        <label className=""><img className="rounded-3 bg-white p-2 ms-5" width={'140px'} height={'100px'} src={Zigram} /></label>
-        <label className=""><img className="rounded-3 bg-white p-2 ms-5" width={'140px'} height={'100px'} src={Zip} /></label>
-        <label className=""><img className="rounded-3 bg-white p-2 ms-5" width={'140px'} height={'100px'} src={Zomato} /></label>
-        <label className=""><img className="rounded-3 bg-white p-2 ms-5" width={'140px'} height={'100px'} src={Walmart} /></label>
+        <label className="" style={{width:"140",height:"100px"}}><img className="rounded-3 bg-white p-2 ms-5" width={'140px'} height={'100px'} src={converhytics} /></label>
+        <label className="" style={{width:"140",height:"100px"}}><img className="rounded-3 bg-white p-2 ms-5" width={'140px'} height={'100px'} src={genpact} /></label>
+        <label className="" style={{width:"140",height:"100px"}}><img className="rounded-3 bg-white p-2 ms-5" width={'140px'} height={'100px'} src={Google} /></label>
+        <label className="" style={{width:"140",height:"100px"}}><img className="rounded-3 bg-white p-2 ms-5" width={'140px'} height={'100px'} src={groww} /></label>
+        <label className="" style={{width:"140",height:"100px"}}><img className="rounded-3 bg-white p-2 ms-5" width={'140px'} height={'100px'} src={HDFC} /></label>
+        <label className="" style={{width:"140",height:"100px"}}><img className="rounded-3 bg-white p-2 ms-5" width={'140px'} height={'100px'} src={Kmart} /></label>
+        <label className="" style={{width:"140",height:"100px"}}><img className="rounded-3 bg-white p-2 ms-5" width={'140px'} height={'100px'} src={KMGP} /></label>
+        <label className="" style={{width:"140",height:"100px"}}><img className="rounded-3 bg-white p-2 ms-5" width={'140px'} height={'100px'} src={mahindra} /></label>
+        <label className="" style={{width:"140",height:"100px"}}><img className="rounded-3 bg-white p-2 ms-5" width={'140px'} height={'100px'} src={Marketine} /></label>
+        <label className="" style={{width:"140",height:"100px"}}><img className="rounded-3 bg-white p-2 ms-5" width={'140px'} height={'100px'} src={Microsoft} /></label>
+        <label className="" style={{width:"140",height:"100px"}}><img className="rounded-3 bg-white p-2 ms-5" width={'140px'} height={'100px'} src={MIQ} /></label>
+        <label className="" style={{width:"140",height:"100px"}}><img className="rounded-3 bg-white p-2 ms-5" width={'140px'} height={'100px'} src={Netflix} /></label>
+        {/* <label className="" style={{width:"140",height:"100px"}}><img className="rounded-3 bg-white p-2 ms-5" width={'140px'} height={'100px'} src={Novartis} /></label> */}
+        <label className="" style={{width:"140",height:"100px"}}><img className="rounded-3 bg-white p-2 ms-5" width={'140px'} height={'100px'} src={paisabazzar} /></label>
+        <label className="" style={{width:"140",height:"100px"}}><img className="rounded-3 bg-white p-2 ms-5" width={'140px'} height={'100px'} src={Quantiphi} /></label>
+        <label className="" style={{width:"140",height:"100px"}}><img className="rounded-3 bg-white p-2 ms-5" width={'140px'} height={'100px'} src={Target} /></label>
+        <label className="" style={{width:"140",height:"100px"}}><img className="rounded-3 bg-white p-2 ms-5" width={'140px'} height={'100px'} src={Tatainsight} /></label>
+        <label className="" style={{width:"140",height:"100px"}}><img className="rounded-3 bg-white p-2 ms-5" width={'140px'} height={'100px'} src={TATA} /></label>
+        <label className="" style={{width:"140",height:"100px"}}><img className="rounded-3 bg-white p-2 ms-5" width={'140px'} height={'100px'} src={ValueLabs} /></label>
+        <label className="" style={{width:"140",height:"100px"}}><img className="rounded-3 bg-white p-2 ms-5" width={'140px'} height={'100px'} src={Vedantu} /></label>
+        <label className="" style={{width:"140",height:"100px"}}><img className="rounded-3 bg-white p-2 ms-5" width={'140px'} height={'100px'} src={Zigram} /></label>
+        <label className="" style={{width:"140",height:"100px"}}><img className="rounded-3 bg-white p-2 ms-5" width={'140px'} height={'100px'} src={Zip} /></label>
+        <label className="" style={{width:"140",height:"100px"}}><img className="rounded-3 bg-white p-2 ms-5" width={'140px'} height={'100px'} src={Zomato} /></label>
+        <label className="" style={{width:"140",height:"100px"}}><img className="rounded-3 bg-white p-2 ms-5" width={'140px'} height={'100px'} src={Walmart} /></label>
       
 
 </marquee>
 
 <marquee scrollamount="15" behavior="alternate" direction="left"  className='' style={{marginTop:"-7%"}} >
-        <label className=""><img className="rounded-3 bg-white p-2 ms-5" width={'140px'} height={'100px'} src={accenture} /></label>
-        <label className=""><img className="rounded-3 bg-white p-2 ms-5" width={'140px'} height={'100px'} src={amazon} /></label>
-        <label className=""><img className="rounded-3 bg-white p-2 ms-5" width={'140px'} height={'100px'} src={biz2credit} /></label>
-        <label className=""><img className="rounded-3 bg-white p-2 ms-5" width={'140px'} height={'100px'} src={blenheim} /></label>
-        <label className=""><img className="rounded-3 bg-white p-2 ms-5" width={'140px'} height={'100px'} src={brigei2i} /></label>
-        <label className=""><img className="rounded-3 bg-white p-2 ms-5" width={'140px'} height={'100px'} src={capgemini} /></label>
-        <label className=""><img className="rounded-3 bg-white p-2 ms-5" width={'140px'} height={'100px'} src={citi} /></label>
+        <label className="" style={{width:"140",height:"100px"}}><img className="rounded-3 bg-white p-2 ms-5" width={'140px'} height={'100px'} src={accenture} /></label>
+        <label className="" style={{width:"140",height:"100px"}}><img className="rounded-3 bg-white p-2 ms-5" width={'140px'} height={'100px'} src={amazon} /></label>
+        <label className="" style={{width:"140",height:"100px"}}><img className="rounded-3 bg-white p-2 ms-5" width={'140px'} height={'100px'} src={biz2credit} /></label>
+        <label className="" style={{width:"140",height:"100px"}}><img className="rounded-3 bg-white p-2 ms-5" width={'140px'} height={'100px'} src={blenheim} /></label>
+        <label className="" style={{width:"140",height:"100px"}}><img className="rounded-3 bg-white p-2 ms-5" width={'140px'} height={'100px'} src={brigei2i} /></label>
+        <label className="" style={{width:"140",height:"100px"}}><img className="rounded-3 bg-white p-2 ms-5" width={'140px'} height={'100px'} src={capgemini} /></label>
+        <label className="" style={{width:"140",height:"100px"}}><img className="rounded-3 bg-white p-2 ms-5" width={'140px'} height={'100px'} src={citi} /></label>
         
-        <label className=""><img className="rounded-3 bg-white p-2 ms-5" width={'140px'} height={'100px'} src={converhytics} /></label>
-        <label className=""><img className="rounded-3 bg-white p-2 ms-5" width={'140px'} height={'100px'} src={genpact} /></label>
-        <label className=""><img className="rounded-3 bg-white p-2 ms-5" width={'140px'} height={'100px'} src={Google} /></label>
-        <label className=""><img className="rounded-3 bg-white p-2 ms-5" width={'140px'} height={'100px'} src={groww} /></label>
-        <label className=""><img className="rounded-3 bg-white p-2 ms-5" width={'140px'} height={'100px'} src={HDFC} /></label>
-        <label className=""><img className="rounded-3 bg-white p-2 ms-5" width={'140px'} height={'100px'} src={Kmart} /></label>
-        <label className=""><img className="rounded-3 bg-white p-2 ms-5" width={'140px'} height={'100px'} src={KMGP} /></label>
-        <label className=""><img className="rounded-3 bg-white p-2 ms-5" width={'140px'} height={'100px'} src={mahindra} /></label>
-        <label className=""><img className="rounded-3 bg-white p-2 ms-5" width={'140px'} height={'100px'} src={Marketine} /></label>
-        <label className=""><img className="rounded-3 bg-white p-2 ms-5" width={'140px'} height={'100px'} src={Microsoft} /></label>
-        <label className=""><img className="rounded-3 bg-white p-2 ms-5" width={'140px'} height={'100px'} src={MIQ} /></label>
-        <label className=""><img className="rounded-3 bg-white p-2 ms-5" width={'140px'} height={'100px'} src={Netflix} /></label>
-        <label className=""><img className="rounded-3 bg-white p-2 ms-5" width={'140px'} height={'100px'} src={Novartis} /></label>
-        <label className=""><img className="rounded-3 bg-white p-2 ms-5" width={'140px'} height={'100px'} src={paisabazzar} /></label>
-        <label className=""><img className="rounded-3 bg-white p-2 ms-5" width={'140px'} height={'100px'} src={Quantiphi} /></label>
-        <label className=""><img className="rounded-3 bg-white p-2 ms-5" width={'140px'} height={'100px'} src={Target} /></label>
-        <label className=""><img className="rounded-3 bg-white p-2 ms-5" width={'140px'} height={'100px'} src={Tatainsight} /></label>
-        <label className=""><img className="rounded-3 bg-white p-2 ms-5" width={'140px'} height={'100px'} src={TATA} /></label>
-        <label className=""><img className="rounded-3 bg-white p-2 ms-5" width={'140px'} height={'100px'} src={ValueLabs} /></label>
-        <label className=""><img className="rounded-3 bg-white p-2 ms-5" width={'140px'} height={'100px'} src={Vedantu} /></label>
-        <label className=""><img className="rounded-3 bg-white p-2 ms-5" width={'140px'} height={'100px'} src={Zigram} /></label>
-        <label className=""><img className="rounded-3 bg-white p-2 ms-5" width={'140px'} height={'100px'} src={Zip} /></label>
-        <label className=""><img className="rounded-3 bg-white p-2 ms-5" width={'140px'} height={'100px'} src={Zomato} /></label>
-        <label className=""><img className="rounded-3 bg-white p-2 ms-5" width={'140px'} height={'100px'} src={Walmart} /></label>
+        <label className="" style={{width:"140",height:"100px"}}><img className="rounded-3 bg-white p-2 ms-5" width={'140px'} height={'100px'} src={converhytics} /></label>
+        <label className="" style={{width:"140",height:"100px"}}><img className="rounded-3 bg-white p-2 ms-5" width={'140px'} height={'100px'} src={genpact} /></label>
+        <label className="" style={{width:"140",height:"100px"}}><img className="rounded-3 bg-white p-2 ms-5" width={'140px'} height={'100px'} src={Google} /></label>
+        <label className="" style={{width:"140",height:"100px"}}><img className="rounded-3 bg-white p-2 ms-5" width={'140px'} height={'100px'} src={groww} /></label>
+        <label className="" style={{width:"140",height:"100px"}}><img className="rounded-3 bg-white p-2 ms-5" width={'140px'} height={'100px'} src={HDFC} /></label>
+        <label className="" style={{width:"140",height:"100px"}}><img className="rounded-3 bg-white p-2 ms-5" width={'140px'} height={'100px'} src={Kmart} /></label>
+        <label className="" style={{width:"140",height:"100px"}}><img className="rounded-3 bg-white p-2 ms-5" width={'140px'} height={'100px'} src={KMGP} /></label>
+        <label className="" style={{width:"140",height:"100px"}}><img className="rounded-3 bg-white p-2 ms-5" width={'140px'} height={'100px'} src={mahindra} /></label>
+        <label className="" style={{width:"140",height:"100px"}}><img className="rounded-3 bg-white p-2 ms-5" width={'140px'} height={'100px'} src={Marketine} /></label>
+        <label className="" style={{width:"140",height:"100px"}}><img className="rounded-3 bg-white p-2 ms-5" width={'140px'} height={'100px'} src={Microsoft} /></label>
+        <label className="" style={{width:"140",height:"100px"}}><img className="rounded-3 bg-white p-2 ms-5" width={'140px'} height={'100px'} src={MIQ} /></label>
+        <label className="" style={{width:"140",height:"100px"}}><img className="rounded-3 bg-white p-2 ms-5" width={'140px'} height={'100px'} src={Netflix} /></label>
+        {/* <label className="" style={{width:"140",height:"100px"}}><img className="rounded-3 bg-white p-2 ms-5" width={'140px'} height={'100px'} src={Novartis} /></label> */}
+        <label className="" style={{width:"140",height:"100px"}}><img className="rounded-3 bg-white p-2 ms-5" width={'140px'} height={'100px'} src={paisabazzar} /></label>
+        <label className="" style={{width:"140",height:"100px"}}><img className="rounded-3 bg-white p-2 ms-5" width={'140px'} height={'100px'} src={Quantiphi} /></label>
+        <label className="" style={{width:"140",height:"100px"}}><img className="rounded-3 bg-white p-2 ms-5" width={'140px'} height={'100px'} src={Target} /></label>
+        <label className="" style={{width:"140",height:"100px"}}><img className="rounded-3 bg-white p-2 ms-5" width={'140px'} height={'100px'} src={Tatainsight} /></label>
+        <label className="" style={{width:"140",height:"100px"}}><img className="rounded-3 bg-white p-2 ms-5" width={'140px'} height={'100px'} src={TATA} /></label>
+        <label className="" style={{width:"140",height:"100px"}}><img className="rounded-3 bg-white p-2 ms-5" width={'140px'} height={'100px'} src={ValueLabs} /></label>
+        <label className="" style={{width:"140",height:"100px"}}><img className="rounded-3 bg-white p-2 ms-5" width={'140px'} height={'100px'} src={Vedantu} /></label>
+        <label className="" style={{width:"140",height:"100px"}}><img className="rounded-3 bg-white p-2 ms-5" width={'140px'} height={'100px'} src={Zigram} /></label>
+        <label className="" style={{width:"140",height:"100px"}}><img className="rounded-3 bg-white p-2 ms-5" width={'140px'} height={'100px'} src={Zip} /></label>
+        <label className="" style={{width:"140",height:"100px"}}><img className="rounded-3 bg-white p-2 ms-5" width={'140px'} height={'100px'} src={Zomato} /></label>
+        <label className="" style={{width:"140",height:"100px"}}><img className="rounded-3 bg-white p-2 ms-5" width={'140px'} height={'100px'} src={Walmart} /></label>
       
 
 </marquee>
 
 <marquee scrollamount="15" behavior="alternate" direction="right"  className='' style={{marginTop:"-7%"}}>
-        <label className=""><img className="rounded-3 bg-white p-2 ms-5" width={'140px'} height={'100px'} src={Vedantu} /></label>
-        <label className=""><img className="rounded-3 bg-white p-2 ms-5" width={'140px'} height={'100px'} src={Zigram} /></label>
-        <label className=""><img className="rounded-3 bg-white p-2 ms-5" width={'140px'} height={'100px'} src={Zip} /></label>
-        <label className=""><img className="rounded-3 bg-white p-2 ms-5" width={'140px'} height={'100px'} src={Zomato} /></label>
-        <label className=""><img className="rounded-3 bg-white p-2 ms-5" width={'140px'} height={'100px'} src={Walmart} /></label>
+        <label className="" style={{width:"140",height:"100px"}}><img className="rounded-3 bg-white p-2 ms-5" width={'140px'} height={'100px'} src={Vedantu} /></label>
+        <label className="" style={{width:"140",height:"100px"}}><img className="rounded-3 bg-white p-2 ms-5" width={'140px'} height={'100px'} src={Zigram} /></label>
+        <label className="" style={{width:"140",height:"100px"}}><img className="rounded-3 bg-white p-2 ms-5" width={'140px'} height={'100px'} src={Zip} /></label>
+        <label className="" style={{width:"140",height:"100px"}}><img className="rounded-3 bg-white p-2 ms-5" width={'140px'} height={'100px'} src={Zomato} /></label>
+        <label className="" style={{width:"140",height:"100px"}}><img className="rounded-3 bg-white p-2 ms-5" width={'140px'} height={'100px'} src={Walmart} /></label>
       
         
-       <label className=""><img className="rounded-3 bg-white p-2 ms-5" width={'140px'} height={'100px'} src={Marketine} /></label>
-        <label className=""><img className="rounded-3 bg-white p-2 ms-5" width={'140px'} height={'100px'} src={Microsoft} /></label>
-        <label className=""><img className="rounded-3 bg-white p-2 ms-5" width={'140px'} height={'100px'} src={accenture} /></label>
-        <label className=""><img className="rounded-3 bg-white p-2 ms-5" width={'140px'} height={'100px'} src={amazon} /></label>
-        <label className=""><img className="rounded-3 bg-white p-2 ms-5" width={'140px'} height={'100px'} src={biz2credit} /></label>
-        <label className=""><img className="rounded-3 bg-white p-2 ms-5" width={'140px'} height={'100px'} src={blenheim} /></label>
-        <label className=""><img className="rounded-3 bg-white p-2 ms-5" width={'140px'} height={'100px'} src={brigei2i} /></label>
-        <label className=""><img className="rounded-3 bg-white p-2 ms-5" width={'140px'} height={'100px'} src={capgemini} /></label>
-        <label className=""><img className="rounded-3 bg-white p-2 ms-5" width={'140px'} height={'100px'} src={citi} /></label>
-        <label className=""><img className="rounded-3 bg-white p-2 ms-5" width={'140px'} height={'100px'} src={converhytics} /></label>
-        <label className=""><img className="rounded-3 bg-white p-2 ms-5" width={'140px'} height={'100px'} src={genpact} /></label>
-        <label className=""><img className="rounded-3 bg-white p-2 ms-5" width={'140px'} height={'100px'} src={Google} /></label>
-        <label className=""><img className="rounded-3 bg-white p-2 ms-5" width={'140px'} height={'100px'} src={groww} /></label>
-        <label className=""><img className="rounded-3 bg-white p-2 ms-5" width={'140px'} height={'100px'} src={HDFC} /></label>
-        <label className=""><img className="rounded-3 bg-white p-2 ms-5" width={'140px'} height={'100px'} src={Kmart} /></label>
-        <label className=""><img className="rounded-3 bg-white p-2 ms-5" width={'140px'} height={'100px'} src={KMGP} /></label>
-        <label className=""><img className="rounded-3 bg-white p-2 ms-5" width={'140px'} height={'100px'} src={mahindra} /></label>
+       <label className="" style={{width:"140",height:"100px"}}><img className="rounded-3 bg-white p-2 ms-5" width={'140px'} height={'100px'} src={Marketine} /></label>
+        <label className="" style={{width:"140",height:"100px"}}><img className="rounded-3 bg-white p-2 ms-5" width={'140px'} height={'100px'} src={Microsoft} /></label>
+        <label className="" style={{width:"140",height:"100px"}}><img className="rounded-3 bg-white p-2 ms-5" width={'140px'} height={'100px'} src={accenture} /></label>
+        <label className="" style={{width:"140",height:"100px"}}><img className="rounded-3 bg-white p-2 ms-5" width={'140px'} height={'100px'} src={amazon} /></label>
+        <label className="" style={{width:"140",height:"100px"}}><img className="rounded-3 bg-white p-2 ms-5" width={'140px'} height={'100px'} src={biz2credit} /></label>
+        <label className="" style={{width:"140",height:"100px"}}><img className="rounded-3 bg-white p-2 ms-5" width={'140px'} height={'100px'} src={blenheim} /></label>
+        <label className="" style={{width:"140",height:"100px"}}><img className="rounded-3 bg-white p-2 ms-5" width={'140px'} height={'100px'} src={brigei2i} /></label>
+        <label className="" style={{width:"140",height:"100px"}}><img className="rounded-3 bg-white p-2 ms-5" width={'140px'} height={'100px'} src={capgemini} /></label>
+        <label className="" style={{width:"140",height:"100px"}}><img className="rounded-3 bg-white p-2 ms-5" width={'140px'} height={'100px'} src={citi} /></label>
+        <label className="" style={{width:"140",height:"100px"}}><img className="rounded-3 bg-white p-2 ms-5" width={'140px'} height={'100px'} src={converhytics} /></label>
+        <label className="" style={{width:"140",height:"100px"}}><img className="rounded-3 bg-white p-2 ms-5" width={'140px'} height={'100px'} src={genpact} /></label>
+        <label className="" style={{width:"140",height:"100px"}}><img className="rounded-3 bg-white p-2 ms-5" width={'140px'} height={'100px'} src={Google} /></label>
+        <label className="" style={{width:"140",height:"100px"}}><img className="rounded-3 bg-white p-2 ms-5" width={'140px'} height={'100px'} src={groww} /></label>
+        <label className="" style={{width:"140",height:"100px"}}><img className="rounded-3 bg-white p-2 ms-5" width={'140px'} height={'100px'} src={HDFC} /></label>
+        <label className="" style={{width:"140",height:"100px"}}><img className="rounded-3 bg-white p-2 ms-5" width={'140px'} height={'100px'} src={Kmart} /></label>
+        <label className="" style={{width:"140",height:"100px"}}><img className="rounded-3 bg-white p-2 ms-5" width={'140px'} height={'100px'} src={KMGP} /></label>
+        <label className="" style={{width:"140",height:"100px"}}><img className="rounded-3 bg-white p-2 ms-5" width={'140px'} height={'100px'} src={mahindra} /></label>
         
-        <label className=""><img className="rounded-3 bg-white p-2 ms-5" width={'140px'} height={'100px'} src={MIQ} /></label>
-        <label className=""><img className="rounded-3 bg-white p-2 ms-5" width={'140px'} height={'100px'} src={Netflix} /></label>
-        <label className=""><img className="rounded-3 bg-white p-2 ms-5" width={'140px'} height={'100px'} src={Novartis} /></label>
-        <label className=""><img className="rounded-3 bg-white p-2 ms-5" width={'140px'} height={'100px'} src={paisabazzar} /></label>
-        <label className=""><img className="rounded-3 bg-white p-2 ms-5" width={'140px'} height={'100px'} src={Quantiphi} /></label>
-        <label className=""><img className="rounded-3 bg-white p-2 ms-5" width={'140px'} height={'100px'} src={Target} /></label>
-        <label className=""><img className="rounded-3 bg-white p-2 ms-5" width={'140px'} height={'100px'} src={Tatainsight} /></label>
-        <label className=""><img className="rounded-3 bg-white p-2 ms-5" width={'140px'} height={'100px'} src={TATA} /></label>
-        <label className=""><img className="rounded-3 bg-white p-2 ms-5" width={'140px'} height={'100px'} src={ValueLabs} /></label>
+        <label className="" style={{width:"140",height:"100px"}}><img className="rounded-3 bg-white p-2 ms-5" width={'140px'} height={'100px'} src={MIQ} /></label>
+        <label className="" style={{width:"140",height:"100px"}}><img className="rounded-3 bg-white p-2 ms-5" width={'140px'} height={'100px'} src={Netflix} /></label>
+        {/* <label className="" style={{width:"140",height:"100px"}}><img className="rounded-3 bg-white p-2 ms-5" width={'140px'} height={'100px'} src={Novartis} /></label> */}
+        <label className="" style={{width:"140",height:"100px"}}><img className="rounded-3 bg-white p-2 ms-5" width={'140px'} height={'100px'} src={paisabazzar} /></label>
+        <label className="" style={{width:"140",height:"100px"}}><img className="rounded-3 bg-white p-2 ms-5" width={'140px'} height={'100px'} src={Quantiphi} /></label>
+        <label className="" style={{width:"140",height:"100px"}}><img className="rounded-3 bg-white p-2 ms-5" width={'140px'} height={'100px'} src={Target} /></label>
+        <label className="" style={{width:"140",height:"100px"}}><img className="rounded-3 bg-white p-2 ms-5" width={'140px'} height={'100px'} src={Tatainsight} /></label>
+        <label className="" style={{width:"140",height:"100px"}}><img className="rounded-3 bg-white p-2 ms-5" width={'140px'} height={'100px'} src={TATA} /></label>
+        <label className="" style={{width:"140",height:"100px"}}><img className="rounded-3 bg-white p-2 ms-5" width={'140px'} height={'100px'} src={ValueLabs} /></label>
         
 
 </marquee>

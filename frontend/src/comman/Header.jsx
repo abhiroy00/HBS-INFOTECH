@@ -50,14 +50,14 @@ export default function Header() {
               </li>
 
               {/* Services Link with Hover */}
-              <li 
-                className="nav-item services" 
+              <li className="nav-item services" 
                 onMouseEnter={() => setIsHoveringServices(true)} 
                 onMouseLeave={() => setIsHoveringServices(false)}
               >
                 <Link className="nav-link text-white" to="/solutions">Services</Link>
                 {/* Conditionally show the dropdown */}
-                <div align='left' className={`services-dropdown ${isHoveringServices ? 'show' : ''}`}>
+                <div align='left' className={` bg-white services-dropdown ${isHoveringServices ? 'show' : ''}` }
+                 style={{zIndex:"100"}}>
                   <div className="services-menu">
                     <div className="services-left-side" style={{position:"relative",left:"30px"}}>
                       <h1 className='m-5'>AI expertise tailored to business goals </h1>
