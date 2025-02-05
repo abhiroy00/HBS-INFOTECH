@@ -2,6 +2,9 @@ from django.urls import path
 from .views import *
 from rest_framework_simplejwt.views import TokenObtainPairView, TokenRefreshView
 from .views import resend_otp
+from django.urls import include, path, re_path
+
+
 
 urlpatterns = [
     path('register/', register, name='Email_register'),
@@ -15,6 +18,15 @@ urlpatterns = [
     path('resend-otp/', resend_otp, name='resend_otp'),
 
     path('logout/', logout, name='logout'),
+
+    # Social Login Routes (Google)
+    path('v1/auth/google/', GoogleLogin.as_view(), name='google_login'),
+    path('v1/auth/google/callback/', GoogleLoginCallback.as_view(), name='google_login_callback'),
+
+    # DRF Authentication and Registration
+    path("v1/auth/", include("dj_rest_auth.urls")),
+    re_path(r"^v1/auth/accounts/", include("allauth.urls")),
+    path("v1/auth/registration/", include("dj_rest_auth.registration.urls")),
 
 
     # path('token/', TokenObtainPairView.as_view(), name='email_pass_to_obtain_pair'),
