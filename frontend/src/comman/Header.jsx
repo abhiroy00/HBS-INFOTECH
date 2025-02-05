@@ -155,7 +155,7 @@ export default function Header() {
                 onMouseEnter={() => setIsHoveringIndustries(true)} 
                 onMouseLeave={() => setIsHoveringIndustries(false)}
               >
-                <Link className="nav-link text-white" to="/industries">Industries</Link>
+                <Link className="nav-link text-white" to="#">Industries</Link>
                 <div className={`industries-dropdown ${isHoveringIndustries ? 'show' : ''}`}>
                   <div className="industries-menu">
                     <ul>
