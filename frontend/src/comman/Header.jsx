@@ -16,12 +16,12 @@ export default function Header() {
 
   return (
     <div>
-      <header className="py-3">
-        <div className="container d-flex justify-content-between align-items-center">
+      <header className="">
+        <div  className="m-auto d-flex justify-content-between align-items-center" style={{width:"90%"}}>
           {/* Left Side */}
           <div className='top'>
-            <div className="logo d-flex align-items-center"></div>
-            <h1 className="mb-0 fs-4 fw-bold text-white">HBS INFOTECH</h1>
+            <div className="logo d-flex align-items-center w-100"></div>
+            <h1 className="mb-0 fs-4 fw-bold text-white w-100 mb-2">HBS INFOTECH</h1>
           </div>
 
           {/* Right Side */}

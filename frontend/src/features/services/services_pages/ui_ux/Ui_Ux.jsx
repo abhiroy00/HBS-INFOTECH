@@ -98,7 +98,8 @@ export default function Ui_Ux() {
   return (
     <>
   <Header></Header>
-
+<div className="text-black">
+  
  <div className="fluid" style={{backgroundColor:"white"}}>
       <div className="backgroundimg w-100" >
         <div className="trnbox" style={{width:"100%",height:"600px"}}>
@@ -149,24 +150,23 @@ export default function Ui_Ux() {
 
 
 
-<div align='justify' className="rounded-5" >
-        <div className="row">
-              <div className="col-md-2"></div>
-              <div className="col-md-4 border rounded-3 kuKEcI cplcEN  mt-3 " style={{marginLeft:"2rem"}}>
+<div align='justify' className="" >
+        <div className="row ">
+             <div className="col-md-3"></div>
+              <div className="col-md-4 shadow rounded-3  cplcEN  ms-5" style={{marginLeft:"0"}}>
                       <svg width={'70px'} loading="lazy" decoding="async" data-nimg="1" className="sc-29fb4b30-2 " style={{color:'transparent'}}  xmlns="http://www.w3.org/2000/svg" id="Warstwa_1" data-name="Warstwa 1" viewBox="0 0 100 100"><defs></defs><g><g><path className="cls-1" d="m57.07,34.22c0,3.91-3.17,7.08-7.07,7.08s-7.08-3.17-7.08-7.08,3.17-7.08,7.08-7.08,7.07,3.17,7.07,7.08Z"></path><path className="cls-1" d="m40.75,81.04c-5.17,0-6.95-4.23-6.95-9.39v-13.75c0-5.17,4.23-9.4,9.39-9.4h13.61c5.17,0,9.4,4.23,9.4,9.4v13.75c0,5.17-1.78,9.39-6.95,9.39"></path><g><line className="cls-1" x1="59.33" y1="60.73" x2="59.33" y2="91.78"></line><line className="cls-1" x1="40.67" y1="60.73" x2="40.67" y2="91.78"></line></g></g><g><path className="cls-1" d="m32.96,34.22c0,3.91-3.17,7.08-7.07,7.08s-7.08-3.17-7.08-7.08,3.17-7.08,7.08-7.08,7.07,3.17,7.07,7.08Z"></path><path className="cls-1" d="m16.63,81.04c-5.17,0-6.95-4.23-6.95-9.39v-13.75c0-5.17,4.23-9.4,9.39-9.4h10.1"></path><line className="cls-1" x1="16.55" y1="60.73" x2="16.55" y2="91.78"></line></g><g><path className="cls-1" d="m67.04,34.22c0,3.91,3.17,7.08,7.07,7.08s7.08-3.17,7.08-7.08-3.17-7.08-7.08-7.08-7.07,3.17-7.07,7.08Z"></path><path className="cls-1" d="m83.37,81.04c5.16,0,6.94-4.23,6.94-9.39v-13.75c0-5.17-4.23-9.4-9.39-9.4h-10.1"></path><line className="cls-1" x1="83.45" y1="60.73" x2="83.45" y2="91.78"></line></g></g><g><path className="cls-1" d="m69.13,15.3c0,3.91-3.17,7.08-7.07,7.08s-7.08-3.17-7.08-7.08,3.17-7.08,7.08-7.08,7.07,3.17,7.07,7.08Z"></path><path className="cls-1" d="m45.02,15.3c0,3.91-3.17,7.08-7.07,7.08s-7.08-3.17-7.08-7.08,3.17-7.08,7.08-7.08,7.07,3.17,7.07,7.08Z"></path></g></svg> 
-                      
-                      <h3 className="sc-c25bae65-0 bjbLu sc-29fb4b30-0 dBoilV sm-header1">88%</h3>
-                      <p className="sc-ca4a3661-9 kyBtyV sm-body17">of internet users are less likely to return to a website after poor user experience.</p>               
-                      
+                      <h3 className=" dBoilV sm-header1">88%</h3>
+                      <p className=" kyBtyV sm-body17">of internet users are less likely to return to a website after poor user experience.</p>               
               </div>
-              <div className="col-md-4  videosizefit " >
-              <video autoPlay={true} muted  className="rounded-3 videoBorder" style={{width:"140%"}}>
-                    <source src={Leipzig_Chargers} type="video/mp4" />
-              </video>
+              <div className="col-md-5 ms-2 pt-4 " >
+                {/* <video  autoPlay={true} muted src={Leipzig_Chargers} className="rounded-3 shadow"></video> */}
+                <video   className="rounded-3 videoBorder videomobielview shadow" style={{width:"90%"}}>
+                      <source className="" style={{width:"240%"}} src={Leipzig_Chargers} type="video/mp4" />
+                </video>
               </div>
                 
             
-              <div className="col-md-2"></div>
+              
         </div>
         <br /><br /><br />
 </div>
@@ -306,17 +306,17 @@ export default function Ui_Ux() {
 {/* marque start */}
 <section  className=" " >
 
-<h1 className="ps-5 pt-5"><strong>Who we’ve helped</strong></h1>
+<div className=""> <h1 className="ps-5 pt-5 ms-5 fs-1"><strong>Who we’ve helped</strong></h1></div>
 <br /><br />
-<marquee hspace='50%' style={{marginLeft:"0rem",marginRight:"0rem"}}>
-      <img style={{width:'140px'}} src="/src/features/services/services_pages/ui_ux/marqueSVG/logo-v2-Procountor-old-finago.svg"  /> &ensp;&ensp;&ensp;&ensp;&ensp;
-      <img style={{width:'140px'}} src="/src/features/services/services_pages/ui_ux/marqueSVG/logo-v2-Beteast.svg"  />&ensp;&ensp;&ensp;&ensp;
-      <img style={{width:'140px'}} src="/src/features/services/services_pages/ui_ux/marqueSVG/logo-v2-CoreLogic-1.svg"  />&ensp;&ensp;&ensp;&ensp;
-      <img style={{width:'140px'}} src="/src/features/services/services_pages/ui_ux/marqueSVG/logo-v2-GemOne.svg"  />&ensp;&ensp;&ensp;&ensp;
-      <img style={{width:'140px'}} src="/src/features/services/services_pages/ui_ux/marqueSVG/logo-v2-Snow.webp"  />&ensp;&ensp;&ensp;&ensp;
-      <img style={{width:'140px'}} src="/src/features/services/services_pages/ui_ux/marqueSVG/logo-v2-t-mobile.webp"  />&ensp;&ensp;&ensp;&ensp;
-      <img style={{width:'140px'}} src="/src/features/services/services_pages/ui_ux/marqueSVG/logo-v2-TravelCounsellors.svg"  />&ensp;&ensp;&ensp;&ensp;
-      <img style={{width:'140px'}} src="/src/features/services/services_pages/ui_ux/marqueSVG/logo-v2-yourgolftravel.webp"  />&ensp;&ensp;&ensp;
+<marquee  behavior="alternate"  style={{marginLeft:"0rem",marginRight:"0rem",marginTop:"-40px"}}>
+      <label htmlFor="" className="rounded-5 p-2 bg-white" style={{marginLeft:"5rem"}}><img  style={{width:'140px',height:"50px"}} src="/src/features/services/services_pages/ui_ux/marqueSVG/logo-v2-Procountor-old-finago.svg"  /> </label>
+      <label htmlFor="" className="rounded-5 p-2 bg-white" style={{marginLeft:"5rem"}}><img  style={{width:'140px',height:"50px"}} src="/src/features/services/services_pages/ui_ux/marqueSVG/logo-v2-Beteast.svg"  /></label>
+      <label htmlFor="" className="rounded-5 p-2 bg-white" style={{marginLeft:"5rem"}}><img  style={{width:'140px',height:"50px"}} src="/src/features/services/services_pages/ui_ux/marqueSVG/logo-v2-CoreLogic-1.svg"  /></label>
+      <label htmlFor="" className="rounded-5 p-2 bg-white" style={{marginLeft:"5rem"}}><img  style={{width:'140px',height:"50px"}} src="/src/features/services/services_pages/ui_ux/marqueSVG/logo-v2-GemOne.svg"  /></label>
+      <label htmlFor="" className="rounded-5 p-2 bg-white" style={{marginLeft:"5rem"}}><img  style={{width:'140px',height:"50px"}} src="/src/features/services/services_pages/ui_ux/marqueSVG/logo-v2-Snow.webp"  /></label>
+      <label htmlFor="" className="rounded-5 p-2 bg-white" style={{marginLeft:"5rem"}}><img  style={{width:'140px',height:"50px"}} src="/src/features/services/services_pages/ui_ux/marqueSVG/logo-v2-t-mobile.webp"  /></label>
+      <label htmlFor="" className="rounded-5 p-2 bg-white" style={{marginLeft:"5rem"}}><img  style={{width:'140px',height:"50px"}} src="/src/features/services/services_pages/ui_ux/marqueSVG/logo-v2-TravelCounsellors.svg"  /></label>
+      <label htmlFor="" className="rounded-5 p-2 bg-white" style={{marginLeft:"5rem"}}><img  style={{width:'140px',height:"50px"}} src="/src/features/services/services_pages/ui_ux/marqueSVG/logo-v2-yourgolftravel.webp"  /></label>
     </marquee>
 </section>
 {/* marque start */}
@@ -464,13 +464,13 @@ export default function Ui_Ux() {
         <div align='center' className="row">
           {state.map((item,index)=>
         
-              <div key={index} id="abcd" className="myDIV aaaaa col-md-5 p-3 bg-white border border-success rounded-3 m-auto me-3 mb-3 " style={{position:"relative",top:"0.4rem"}}>
+              <div key={index} id="abcd" className="myDIV aaaaa col-md-5 bg-white border border-success rounded-3 m-auto me-3 mb-3 " style={{position:"relative",top:"0.4rem"}}>
                   <div  className="showhim hoverable d-flex ">
-                      <img className="aaaaa" style={{width:'15%',minWidth:"50px"}} src={item.svg} alt="" />
+                      <img className="" style={{width:'15%',minWidth:"50px"}} src={item.svg} alt="" />
                       <h5 className="m-auto ">{item.title}</h5>
                       {/* grSScn     */}
-                      <div className="showme  pt-3 grSScn">
-                            <svg className=" text-danger " xmlns="http://www.w3.org/2000/svg" width="22" height="14" fill="none" viewBox="0 0 22 14" ><path stroke="#fff" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M20.91 7H1.002M14.274 1l6.636 6-6.636 6"></path></svg>
+                      <div className="showme  ">
+                      <i class="bi bi-arrow-right-short text-danger fs-1"></i>
                       </div>
                   </div>
                   <p  className="show-on-hover" >{item.arrow} </p>
@@ -515,13 +515,14 @@ export default function Ui_Ux() {
 
 
 
-  <div className="sc-953bb80d-1 gtTrKM ">
+  <div className="w-75 m-auto">
     
       
-        <div className=" d-flex overflow-scroll ps-3" >
+        <div className=" d-flex overflow-scroll " >
         
             <div className="d-flex " >
-              <div className="col-md-3 "> <div className="" style={{marginRight: 20 }}>
+              <div className="col-md-4 col-3 "> 
+              <div className="" style={{marginRight: 20 }}>
                 <a className="sc-4fc5d34f-5 khqIMH" >
                   <div className="sc-4fc5d34f-2 iBTRIq">
                     <img alt="Implementing a Design Process that Combines New Solutions with Proven Methods" className="sc-4fc5d34f-3 dIJiAh"
@@ -530,15 +531,15 @@ export default function Ui_Ux() {
                   </div>
 
                   
-                  <div className="sc-4fc5d34f-4 bcbQTa">
+                  <div className="sc-4fc5d34f-4 bcbQTa pt-0 ">
                     <div className="sc-144bd507-0 bUMhHQ">
                     <div className="sc-144bd507-0 bUMhHQ">                
                       <div className="sc-1865605d-3 bNZlex">
                       <img  className="sc-1865605d-0 hZOqNx"  src="https://softwaremind.com/_next/image/?url=https%3A%2F%2Fprod-cms.softwaremind.com%2Fapp%2Fuploads%2F2024%2F07%2FAgata_Polny-1-150x150.webp&w=1920&q=75" />
-                      <div className="sc-1865605d-2 kSEuet">
+                      <div className="sc-1865605d-2 kSEuet text-white">
                           <p className="sc-ca4a3661-0 sc-1865605d-4 laTSeM cSKAKg sm-overline">Agata Polny</p>
                           <p className="sc-ca4a3661-13 sc-1865605d-5 kDQSjW bdCFfJ sm-hint">2024/07/11</p>
-                          </div>
+                      </div>
                       </div>
                     </div>
                     </div>
@@ -546,7 +547,7 @@ export default function Ui_Ux() {
                       Implementing a Design Process that Combines New Solutions with
                       Proven Methods
                     </p>
-                    <div className="sc-4fc5d34f-6 eehoUh">
+                    <div className="sc-4fc5d34f-6 ">
                       <button className="sc-ff402c-0 kaBMTH">
                         Read more
                         <svg xmlns="http://www.w3.org/2000/svg" width={8} height={14} fill="none" viewBox="0 0 8 14" className="sc-ff402c-1 djQrSY"><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" d="m1 1 6 6-6 6"/></svg>
@@ -556,7 +557,7 @@ export default function Ui_Ux() {
                 </a>
               </div></div>
 
-              <div className="col-md-3"><div className="" style={{ marginRight: 20 }}>
+              <div className="col-md-4 col-3"><div className="" style={{ marginRight: 20 }}>
                 <a className="sc-4fc5d34f-5 diNtOS" >
                   <div className="sc-4fc5d34f-2 iBTRIq">
                     <img alt="Implementing a Design Process that Combines New Solutions with Proven Methods" className="sc-4fc5d34f-3 dIJiAh"
@@ -565,12 +566,12 @@ export default function Ui_Ux() {
                   </div>
 
                   
-                  <div className="sc-4fc5d34f-4 bcbQTa">
+                  <div className="sc-4fc5d34f-4 bcbQTa pt-0">
                     <div className="sc-144bd507-0 bUMhHQ">
                     <div className="sc-144bd507-0 bUMhHQ">                
                       <div className="sc-1865605d-3 bNZlex">
                       <img  className="sc-1865605d-0 hZOqNx"  src="https://softwaremind.com/_next/image/?url=https%3A%2F%2Fprod-cms.softwaremind.com%2Fapp%2Fuploads%2F2024%2F07%2FAgata_Polny-1-150x150.webp&w=1920&q=75" />
-                      <div className="sc-1865605d-2 kSEuet">
+                      <div className="sc-1865605d-2 kSEuet text-white">
                           <p className="sc-ca4a3661-0 sc-1865605d-4 laTSeM cSKAKg sm-overline">Agata Polny</p>
                           <p className="sc-ca4a3661-13 sc-1865605d-5 kDQSjW bdCFfJ sm-hint">2024/07/11</p>
                           </div>
@@ -581,8 +582,8 @@ export default function Ui_Ux() {
                       Implementing a Design Process that Combines New Solutions with
                       Proven Methods
                     </p>
-                    <div className="sc-4fc5d34f-6 eehoUh">
-                      <button className="sc-ff402c-0 kaBMTH">
+                    <div className="sc-4fc5d34f-6 ">
+                      <button className="sc-ff402c-0 kaBMTH border-white text-white">
                         Read more
                         <svg xmlns="http://www.w3.org/2000/svg" width={8} height={14} fill="none" viewBox="0 0 8 14" className="sc-ff402c-1 djQrSY"><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" d="m1 1 6 6-6 6"/></svg>
                       </button>
@@ -591,7 +592,7 @@ export default function Ui_Ux() {
                 </a>
               </div></div>
 
-              <div className="col-md-3"><div className="" style={{ marginRight: 20 }}>
+              <div className="col-md-4 col-3"><div className="" style={{ marginRight: 20 }}>
                 <a className="sc-4fc5d34f-5 fHcyk" >
                   <div className="sc-4fc5d34f-2 iBTRIq">
                     <img alt="Implementing a Design Process that Combines New Solutions with Proven Methods" className="sc-4fc5d34f-3 dIJiAh"
@@ -600,12 +601,12 @@ export default function Ui_Ux() {
                   </div>
 
                   
-                  <div className="sc-4fc5d34f-4 bcbQTa">
+                  <div className="sc-4fc5d34f-4 bcbQTa pt-0">
                     <div className="sc-144bd507-0 bUMhHQ">
                     <div className="sc-144bd507-0 bUMhHQ">                
                       <div className="sc-1865605d-3 bNZlex">
                       <img  className="sc-1865605d-0 hZOqNx"  src="https://softwaremind.com/_next/image/?url=https%3A%2F%2Fprod-cms.softwaremind.com%2Fapp%2Fuploads%2F2024%2F07%2FAgata_Polny-1-150x150.webp&w=1920&q=75" />
-                      <div className="sc-1865605d-2 kSEuet">
+                      <div className="sc-1865605d-2 kSEuet text-white">
                           <p className="sc-ca4a3661-0 sc-1865605d-4 laTSeM cSKAKg sm-overline">Agata Polny</p>
                           <p className="sc-ca4a3661-13 sc-1865605d-5 kDQSjW bdCFfJ sm-hint">2024/07/11</p>
                           </div>
@@ -616,7 +617,7 @@ export default function Ui_Ux() {
                       Implementing a Design Process that Combines New Solutions with
                       Proven Methods
                     </p>
-                    <div className="sc-4fc5d34f-6 eehoUh">
+                    <div className="sc-4fc5d34f-6 ">
                       <button className="sc-ff402c-0 kaBMTH">
                         Read more
                         <svg xmlns="http://www.w3.org/2000/svg" width={8} height={14} fill="none" viewBox="0 0 8 14" className="sc-ff402c-1 djQrSY"><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" d="m1 1 6 6-6 6"/></svg>
@@ -627,7 +628,7 @@ export default function Ui_Ux() {
               </div></div>
 
 
-              <div className="col-md-3"> <div className="" style={{ marginRight: 20 }}>
+              <div className="col-md-4 col-3"> <div className="" style={{ marginRight: 20 }}>
                 <a className="sc-4fc5d34f-5 khqIMH" >
                   <div className="sc-4fc5d34f-2 iBTRIq">
                     <img alt="Implementing a Design Process that Combines New Solutions with Proven Methods" className="sc-4fc5d34f-3 dIJiAh"
@@ -636,12 +637,12 @@ export default function Ui_Ux() {
                   </div>
 
                   
-                  <div className="sc-4fc5d34f-4 bcbQTa">
+                  <div className="sc-4fc5d34f-4 bcbQTa pt-0">
                     <div className="sc-144bd507-0 bUMhHQ">
                     <div className="sc-144bd507-0 bUMhHQ">                
                       <div className="sc-1865605d-3 bNZlex">
                       <img  className="sc-1865605d-0 hZOqNx"  src="https://softwaremind.com/_next/image/?url=https%3A%2F%2Fprod-cms.softwaremind.com%2Fapp%2Fuploads%2F2024%2F07%2FAgata_Polny-1-150x150.webp&w=1920&q=75" />
-                      <div className="sc-1865605d-2 kSEuet">
+                      <div className="sc-1865605d-2 kSEuet text-white">
                           <p className="sc-ca4a3661-0 sc-1865605d-4 laTSeM cSKAKg sm-overline">Agata Polny</p>
                           <p className="sc-ca4a3661-13 sc-1865605d-5 kDQSjW bdCFfJ sm-hint">2024/07/11</p>
                           </div>
@@ -652,7 +653,7 @@ export default function Ui_Ux() {
                       Implementing a Design Process that Combines New Solutions with
                       Proven Methods
                     </p>
-                    <div className="sc-4fc5d34f-6 eehoUh">
+                    <div className="sc-4fc5d34f-6 ">
                       <button className="sc-ff402c-0 kaBMTH">
                         Read more
                         <svg xmlns="http://www.w3.org/2000/svg" width={8} height={14} fill="none" viewBox="0 0 8 14" className="sc-ff402c-1 djQrSY"><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" d="m1 1 6 6-6 6"/></svg>
@@ -663,21 +664,21 @@ export default function Ui_Ux() {
               </div>
               </div>
 
-              <div className="col-md-3"><div className="" style={{ marginRight: 20 }}>
+              <div className="col-md-4 col-3"><div className="" style={{ marginRight: 20 }}>
                 <a className="sc-4fc5d34f-5 diNtOS" >
-                  <div className="sc-4fc5d34f-2 iBTRIq">
+                  <div className="sc-4fc5d34f-2 ">
                     <img alt="Implementing a Design Process that Combines New Solutions with Proven Methods" className="sc-4fc5d34f-3 dIJiAh"
                       src="https://softwaremind.com/_next/image/?url=https%3A%2F%2Fprod-cms.softwaremind.com%2Fapp%2Fuploads%2F2023%2F07%2Fblog-featured-image-less-can-be-more-how-empty-states-create-engaging-user-experiences-and-drive-business-goals-768x320.webp&w=1920&q=75"
                       style={{ color: "transparent" }} />
                   </div>
 
                   
-                  <div className="sc-4fc5d34f-4 bcbQTa">
+                  <div className="sc-4fc5d34f-4 bcbQTa pt-0">
                     <div className="sc-144bd507-0 bUMhHQ">
                     <div className="sc-144bd507-0 bUMhHQ">                
                       <div className="sc-1865605d-3 bNZlex">
                       <img  className="sc-1865605d-0 hZOqNx"  src="https://softwaremind.com/_next/image/?url=https%3A%2F%2Fprod-cms.softwaremind.com%2Fapp%2Fuploads%2F2024%2F07%2FAgata_Polny-1-150x150.webp&w=1920&q=75" />
-                      <div className="sc-1865605d-2 kSEuet">
+                      <div className="sc-1865605d-2 kSEuet text-white">
                           <p className="sc-ca4a3661-0 sc-1865605d-4 laTSeM cSKAKg sm-overline">Agata Polny</p>
                           <p className="sc-ca4a3661-13 sc-1865605d-5 kDQSjW bdCFfJ sm-hint">2024/07/11</p>
                           </div>
@@ -688,7 +689,7 @@ export default function Ui_Ux() {
                       Implementing a Design Process that Combines New Solutions with
                       Proven Methods
                     </p>
-                    <div className="sc-4fc5d34f-6 eehoUh">
+                    <div className="sc-4fc5d34f-6 ">
                       <button className="sc-ff402c-0 kaBMTH">
                         Read more
                         <svg xmlns="http://www.w3.org/2000/svg" width={8} height={14} fill="none" viewBox="0 0 8 14" className="sc-ff402c-1 djQrSY"><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" d="m1 1 6 6-6 6"/></svg>
@@ -758,6 +759,7 @@ export default function Ui_Ux() {
 {/* Design engaging products that set your brand apart End */}
 
 
+
 <hr />
 <section align='justify' className="sc-9e3861ef-1 dVcJZQ" >
   <div className="sc-953bb80d-0 ePPvGo">
@@ -771,18 +773,18 @@ export default function Ui_Ux() {
       <div className="sc-b263a12c-0 irxYKK">
       
           {data.map((item,index)=>
-            <div key={index} className="sc-f9ea8f54-0 gvDaqZ" >
-                    <div className="hoverable showhim sc-f9ea8f54-1 eEvJRF">
-                        <h3 className="sc-c25bae65-0 bjbLu sm-subtitle">
+            <div key={index} className="sc-f9ea8f54-0 gvDaqZ m-0 p-3 " >
+                    <div className=" hoverable showhim eEvJRF m-0 p-0">
+                        <h3 className="sc--0  h6">
                             {item.title}
                         </h3>
 
-                        <div className="showme p-1 grSScn">
-                            <svg className=" text-danger " xmlns="http://www.w3.org/2000/svg" width="22" height="14" fill="none" viewBox="0 0 22 14" ><path stroke="#fff" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M20.91 7H1.002M14.274 1l6.636 6-6.636 6"></path></svg>
-                      </div>
+                        <div className="showme pe-1" style={{background:'dark'}}>
+                            <i class="bi bi-arrow-right-short text-danger " ></i>
+                        </div>
                     </div>
                     <div  id="cont" aria-hidden="true" role="region" className="show-on-hover">
-                        <p className="sc-ca4a3661-6 sc-f9ea8f54-3 greJTC drWCXn sm-body15">
+                        <p className="sc-ca4a3661-6 sc--3 greJTC drWCXn sm-">
                           {item.desc}&nbsp;
                         </p>
                     </div>
@@ -925,6 +927,7 @@ export default function Ui_Ux() {
 </section>
 
 
+</div>
 <Footer></Footer>
     </>
   )

@@ -1,3 +1,5 @@
+
+
 .st0 {fill: none; stroke: #fff; stroke-linecap: round; stroke-width: 1.4px;}
 
 
@@ -438,7 +440,7 @@ p {
 .sm-header4 {
     margin: 0;
     font-family: Lato-SemiBold;
-    font-size: 2rem;
+    font-size: 1.2rem;
     font-weight: 600;
     line-height: 2.36rem;
     -webkit-letter-spacing: -0.02em;
@@ -3272,14 +3274,14 @@ data-styled.g136[id="sc-4fc5d34f-4"] {
     border-radius: 1.563rem;
     -webkit-transition: all 0.5s ease;
     transition: all 0.5s ease;
-    height: 35.375rem;
+    /* height:  */
     cursor: pointer;
     display: block;
 }
 
 /*!sc*/
 .khqIMH:hover {
-    height: 36.625rem;
+    height: 100%;
 }
 
 /*!sc*/
@@ -3310,14 +3312,14 @@ data-styled.g136[id="sc-4fc5d34f-4"] {
     border-radius: 1.563rem;
     -webkit-transition: all 0.5s ease;
     transition: all 0.5s ease;
-    height: 35.375rem;
+    /* height: 35.375rem; */
     cursor: pointer;
     display: block;
 }
 
 /*!sc*/
 .diNtOS:hover {
-    height: 36.625rem;
+    height: 100%;
 }
 
 /*!sc*/
@@ -3348,14 +3350,14 @@ data-styled.g136[id="sc-4fc5d34f-4"] {
     border-radius: 1.563rem;
     -webkit-transition: all 0.5s ease;
     transition: all 0.5s ease;
-    height: 35.375rem;
+    /* height: 35.375rem; */
     cursor: pointer;
     display: block;
 }
 
 /*!sc*/
 .fHcyk:hover {
-    height: 36.625rem;
+    height: 100%;
 }
 
 /*!sc*/
@@ -5971,13 +5973,13 @@ display:none;
 
 .showme {
     cursor:alias;
-    rotate: -90deg;
+    rotate: 0deg;
     transition:0.5s ease-in
   }
   
   .showhim:hover .showme {
     cursor:alias;
-    rotate: 0deg;
+    rotate: 90deg;
     transition:0.5s ease-in
   }
   
@@ -6028,12 +6030,18 @@ data-styled.g278[id="sc-81ec6d4d-0"] {
     width: 32%;
     
 }
+
 .videoBorder{
     border: 5px solid orangered;
     border-radius: 2rem;
     width: 100%;
 }
 
+.videomobielview{
+    margin-left: -6%;
+    
+
+}
 
 @media (max-width: 549px) {
     .videosizefit {
@@ -6049,6 +6057,13 @@ data-styled.g278[id="sc-81ec6d4d-0"] {
         border-radius: 2rem;
         width: 100%;
     }
+        
+    .videomobielview{
+        margin-left: 1.4rem;
+        
+
+    }
+
 }
 
 

@@ -552,12 +552,12 @@ export default function Course() {
       </div>
   </div>
 </section>
-<br /><br /><br />
+
 
 
 {/*   Introduction to Computer Programming */}
 <section>
-<div className="bg-black text-white p-0 mt-5">
+<div className="bg-black text-white p-0 ">
         <h1 className="text-center display-5 fw-bolder text-white">
               Curriculum and 
               <a href="" className="text-danger">Learning Track</a></h1>
@@ -637,30 +637,29 @@ export default function Course() {
 
   <div className="col-md-4 bggray p-0 m-0 bg-dark rounded-3">
         <div style={{display:'flex'}} className="row ">
-            <div className="row p-4">
+            <div className="row pt-2">
                 <div className="col-md-4 ">
                     <h4>Topics</h4>
                 </div>
                 <div className="col-md-8 text-end ">
                     Dutation : <label htmlFor="" className="text-danger">1 month</label>
                 </div>
-                
             </div>
         
         </div>
         <hr />
-        <div className='scrollview ' style={{overflow:'scroll',position:"relative",height:'300px', scrollbarWidth: 'none'}}>
+        <div className='scrollview ' style={{overflow:'scroll',height:'300px', scrollbarWidth: ''}}>
         <ul className="text-start" >
-          <li>• {onedata.t1}</li><br /><br />
-          <li>• {onedata.t2}</li><br /><br />
-          <li>• {onedata.t3}</li><br /><br />
-          <li>• {onedata.t4}</li><br /><br />
-          <li>• {onedata.t5}</li><br /><br />
-          <li>• {onedata.t6}</li><br /><br />
-          <li>• {onedata.t7}</li><br /><br />
-          <li>• {onedata.t8}</li><br /><br />
-          <li>• {onedata.t9}</li><br /><br />
-          <li>• {onedata.t10}</li><br /><br />
+          <li className="p-0 m-0" style={{fontSize:"0.7rem"}}><span className="pe-3">•</span> {onedata.t1}</li><br /><br />
+          <li className="p-0 m-0" style={{fontSize:"0.7rem"}}><span className="pe-3">•</span> {onedata.t2}</li><br /><br />
+          <li className="p-0 m-0" style={{fontSize:"0.7rem"}}><span className="pe-3">•</span> {onedata.t3}</li><br /><br />
+          <li className="p-0 m-0" style={{fontSize:"0.7rem"}}><span className="pe-3">•</span> {onedata.t4}</li><br /><br />
+          <li className="p-0 m-0" style={{fontSize:"0.7rem"}}><span className="pe-3">•</span> {onedata.t5}</li><br /><br />
+          <li className="p-0 m-0" style={{fontSize:"0.7rem"}}><span className="pe-3">•</span> {onedata.t6}</li><br /><br />
+          <li className="p-0 m-0" style={{fontSize:"0.7rem"}}><span className="pe-3">•</span> {onedata.t7}</li><br /><br />
+          <li className="p-0 m-0" style={{fontSize:"0.7rem"}}><span className="pe-3">•</span> {onedata.t8}</li><br /><br />
+          <li className="p-0 m-0" style={{fontSize:"0.7rem"}}><span className="pe-3">•</span> {onedata.t9}</li><br /><br />
+          <li className="p-0 m-0" style={{fontSize:"0.7rem"}}><span className="pe-3">•</span> {onedata.t10}</li><br /><br />
         </ul>
         </div>
   </div>
@@ -988,7 +987,7 @@ export default function Course() {
         <br />
         <br />
         <u>Go to Program Fee section to know Career Services Fee.</u><br /><br />
-        <button className="btn-danger rounded-3 p-1">Explore Program</button><br /><br />
+        <button className="btn-danger rounded-3 p-2">Explore Program</button><br /><br />
         </div>
       </div>
 </div>
@@ -1078,82 +1077,48 @@ export default function Course() {
 
 
 
-
+{/* card Course fees */}
 <h1 className="course-fees">Course <span className="ms-0 job-headu"><u>fees</u></span></h1>
-<h1 className=""><u ></u></h1>
-<br />
-<br />
+
+
 <div className="feeeees">
   <button className="Tution-fees"><u>Tution Fees</u></button>
   <button className="career-fees"><u>Career Services Fees</u></button>
 </div>
 
 
-<div align='center' className="d-flex " style={{marginLeft:"10rem"}}>
-  <div className="card  me-3" style={{width:"40%",height:"100%"}}>
-    <div className="">
+<div className="d-flex " >
+  <div className="me-3 card " style={{width:"30%",height:"100%",marginLeft:"15rem"}}>
+    <div className="" style={{fontSize:"0.7rem"}}>
       <p className="pricing-plan">Premium</p>
       <div className="price-value" data-currency="$ USD" data-currency-simple="USD">
         <p className="price-company">AlmaBetter + Microsoft</p>
-        <p className="price-number">Rs.<span className="price-integer">50,000</span>/mo</p>
+        <p className="price-number"><strong>Rs.</strong><span className="price-integer">50,000</span>/mo</p>
       </div>
-      <div className="pricing-note">*Pay in easy EMIs starting at INR 7000 per month.</div>
-      <ul className="check-list" role="list">
-        <li className="check-list-item">
-          <svg version={1.0} preserveAspectRatio="xMidYMid meet" height={16} viewBox="0 0 30 30.000001" zoomAndPan="magnify" width={16} xmlnsXlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" style={{color: 'rgb(102, 78, 255)'}}>
-            <defs>
-              <clipPath id="id1">
-                <path fill="#664eff" clipRule="nonzero" d="M 2.328125 4.222656 L 27.734375 4.222656 L 27.734375 24.542969 L 2.328125 24.542969 Z M 2.328125 4.222656" />
-              </clipPath>
-            </defs>
-            <g clipPath="url(#id1)">
-              <path fillRule="nonzero" fillOpacity={1} d="M 27.5 7.53125 L 24.464844 4.542969 C 24.15625 4.238281 23.65625 4.238281 23.347656 4.542969 L 11.035156 16.667969 L 6.824219 12.523438 C 6.527344 12.230469 6 12.230469 5.703125 12.523438 L 2.640625 15.539062 C 2.332031 15.84375 2.332031 16.335938 2.640625 16.640625 L 10.445312 24.324219 C 10.59375 24.472656 10.796875 24.554688 11.007812 24.554688 C 11.214844 24.554688 11.417969 24.472656 11.566406 24.324219 L 27.5 8.632812 C 27.648438 8.488281 27.734375 8.289062 27.734375 8.082031 C 27.734375 7.875 27.648438 7.679688 27.5 7.53125 Z M 27.5 7.53125" fill="#664eff" />
-            </g></svg>Intensive data science curriculum covering <br />basic  to advance concepts
-        </li>
-        <li className="check-list-item">
-          <svg version={1.0} preserveAspectRatio="xMidYMid meet" height={16} viewBox="0 0 30 30.000001" zoomAndPan="magnify" width={16} xmlnsXlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" style={{color: 'rgb(102, 78, 255)'}}>
-            <defs>
-              <clipPath id="id1">
-                <path fill="#664eff" clipRule="nonzero" d="M 2.328125 4.222656 L 27.734375 4.222656 L 27.734375 24.542969 L 2.328125 24.542969 Z M 2.328125 4.222656" />
-              </clipPath>
-            </defs>
-            <g clipPath="url(#id1)">
-              <path fillRule="nonzero" fillOpacity={1} d="M 27.5 7.53125 L 24.464844 4.542969 C 24.15625 4.238281 23.65625 4.238281 23.347656 4.542969 L 11.035156 16.667969 L 6.824219 12.523438 C 6.527344 12.230469 6 12.230469 5.703125 12.523438 L 2.640625 15.539062 C 2.332031 15.84375 2.332031 16.335938 2.640625 16.640625 L 10.445312 24.324219 C 10.59375 24.472656 10.796875 24.554688 11.007812 24.554688 C 11.214844 24.554688 11.417969 24.472656 11.566406 24.324219 L 27.5 8.632812 C 27.648438 8.488281 27.734375 8.289062 27.734375 8.082031 C 27.734375 7.875 27.648438 7.679688 27.5 7.53125 Z M 27.5 7.53125" fill="#664eff" />
-            </g></svg>100+ Live Data Science classes, 8 PM to 10:30 <br />PM.  Lifetime access to all the class recordings
-        </li>
-        <li className="check-list-item">
-          <svg version={1.0} preserveAspectRatio="xMidYMid meet" height={16} viewBox="0 0 30 30.000001" zoomAndPan="magnify" width={16} xmlnsXlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" style={{color: 'rgb(102, 78, 255)'}}>
-            <defs>
-              <clipPath id="id1">
-                <path fill="#664eff" clipRule="nonzero" d="M 2.328125 4.222656 L 27.734375 4.222656 L 27.734375 24.542969 L 2.328125 24.542969 Z M 2.328125 4.222656" />
-              </clipPath>
-            </defs>
-            <g clipPath="url(#id1)">
-              <path fillRule="nonzero" fillOpacity={1} d="M 27.5 7.53125 L 24.464844 4.542969 C 24.15625 4.238281 23.65625 4.238281 23.347656 4.542969 L 11.035156 16.667969 L 6.824219 12.523438 C 6.527344 12.230469 6 12.230469 5.703125 12.523438 L 2.640625 15.539062 C 2.332031 15.84375 2.332031 16.335938 2.640625 16.640625 L 10.445312 24.324219 C 10.59375 24.472656 10.796875 24.554688 11.007812 24.554688 C 11.214844 24.554688 11.417969 24.472656 11.566406 24.324219 L 27.5 8.632812 C 27.648438 8.488281 27.734375 8.289062 27.734375 8.082031 C 27.734375 7.875 27.648438 7.679688 27.5 7.53125 Z M 27.5 7.53125" fill="#664eff" />
-            </g></svg>20+ capstone data science projects &amp; 1000+ <br />coding problems and assessments
-        </li>
-        <li className="check-list-item">
-          <svg version={1.0} preserveAspectRatio="xMidYMid meet" height={16} viewBox="0 0 30 30.000001" zoomAndPan="magnify" width={16} xmlnsXlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" style={{color: 'rgb(102, 78, 255)'}}>
-            <defs>
-              <clipPath id="id1">
-                <path fill="#664eff" clipRule="nonzero" d="M 2.328125 4.222656 L 27.734375 4.222656 L 27.734375 24.542969 L 2.328125 24.542969 Z M 2.328125 4.222656" />
-              </clipPath>
-            </defs>
-            <g clipPath="url(#id1)">
-              <path fillRule="nonzero" fillOpacity={1} d="M 27.5 7.53125 L 24.464844 4.542969 C 24.15625 4.238281 23.65625 4.238281 23.347656 4.542969 L 11.035156 16.667969 L 6.824219 12.523438 C 6.527344 12.230469 6 12.230469 5.703125 12.523438 L 2.640625 15.539062 C 2.332031 15.84375 2.332031 16.335938 2.640625 16.640625 L 10.445312 24.324219 C 10.59375 24.472656 10.796875 24.554688 11.007812 24.554688 C 11.214844 24.554688 11.417969 24.472656 11.566406 24.324219 L 27.5 8.632812 C 27.648438 8.488281 27.734375 8.289062 27.734375 8.082031 C 27.734375 7.875 27.648438 7.679688 27.5 7.53125 Z M 27.5 7.53125" fill="#664eff" />
-            </g></svg>50+ mock interviews with dedicated career coaches
-        </li>
-        <li className="check-list-item">
-          <svg version={1.0} preserveAspectRatio="xMidYMid meet" height={16} viewBox="0 0 30 30.000001" zoomAndPan="magnify" width={16} xmlnsXlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" style={{color: 'rgb(102, 78, 255)'}}>
-            <defs>
-              <clipPath id="id1">
-                <path fill="#664eff" clipRule="nonzero" d="M 2.328125 4.222656 L 27.734375 4.222656 L 27.734375 24.542969 L 2.328125 24.542969 Z M 2.328125 4.222656" />
-              </clipPath>
-            </defs>
-            <g clipPath="url(#id1)">
-              <path fillRule="nonzero" fillOpacity={1} d="M 27.5 7.53125 L 24.464844 4.542969 C 24.15625 4.238281 23.65625 4.238281 23.347656 4.542969 L 11.035156 16.667969 L 6.824219 12.523438 C 6.527344 12.230469 6 12.230469 5.703125 12.523438 L 2.640625 15.539062 C 2.332031 15.84375 2.332031 16.335938 2.640625 16.640625 L 10.445312 24.324219 C 10.59375 24.472656 10.796875 24.554688 11.007812 24.554688 C 11.214844 24.554688 11.417969 24.472656 11.566406 24.324219 L 27.5 8.632812 C 27.648438 8.488281 27.734375 8.289062 27.734375 8.082031 C 27.734375 7.875 27.648438 7.679688 27.5 7.53125 Z M 27.5 7.53125" fill="#664eff" />
-            </g></svg>Dual Certification
-        </li>
+      
+      <div className="pricing-note ">*Pay in easy EMIs starting at INR 7000 per month.</div>
+      <br />
+      <ul className=" text-start ms-0 ps-0"  >
+          <li className="check-list-item">
+          <i class="fw-bolder pe-1" style={{color: 'rgb(102, 78, 255)',}}>✓</i>
+              Intensive data science curriculum covering <br />basic  to advance concepts
+          </li>
+          <li className="check-list-item">
+          <i class="fw-bolder pe-1" style={{color: 'rgb(102, 78, 255)',}}>✓</i>
+            100+ Live Data Science classes, 8 PM to 10:30 <br />PM.  Lifetime access to all the class recordings
+          </li>
+          <li className="check-list-item">
+              <i class="fw-bolder pe-1" style={{color: 'rgb(102, 78, 255)',}}>✓</i>
+              20+ capstone data science projects &amp; 1000+ <br />coding problems and assessments
+          </li>
+          <li className="check-list-item">
+          <i class="fw-bolder pe-1" style={{color: 'rgb(102, 78, 255)',}}>✓</i>
+            50+ mock interviews with dedicated career coaches
+          </li>
+          <li className="check-list-item">
+          <i class="fw-bolder pe-1" style={{color: 'rgb(102, 78, 255)',}}>✓</i>
+            Dual Certification
+          </li>
       </ul>
       <br />
       <button className="button ">Enroll now</button>
@@ -1164,70 +1129,38 @@ export default function Course() {
   </div>
 
 
-  <div className="card " style={{width:"40%",height:"100%"}}>
-    <div className="">
+  <div className="ms-0 card  " style={{width:"30%",height:"100%"}}>
+    <div className="" style={{fontSize:"0.7rem"}}>
       <p className="pricing-plan">Premium</p>
       <div className="price-value" data-currency="$ USD" data-currency-simple="USD">
         <p className="price-company">AlmaBetter + Microsoft</p>
-        <p className="price-number">Rs.<span className="price-integer">50,000</span>/mo</p>
+
+        <p className="price-number"><strong>Rs.</strong><span className="price-integer">50,000</span>/mo</p>
       </div>
-      <div className="pricing-note">*Pay in easy EMIs starting at INR 7000 per month.</div>
-      <ul className="check-list" role="list">
-        <li className="check-list-item">
-          <svg version={1.0} preserveAspectRatio="xMidYMid meet" height={16} viewBox="0 0 30 30.000001" zoomAndPan="magnify" width={16} xmlnsXlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" style={{color: 'rgb(102, 78, 255)'}}>
-            <defs>
-              <clipPath id="id1">
-                <path fill="#664eff" clipRule="nonzero" d="M 2.328125 4.222656 L 27.734375 4.222656 L 27.734375 24.542969 L 2.328125 24.542969 Z M 2.328125 4.222656" />
-              </clipPath>
-            </defs>
-            <g clipPath="url(#id1)">
-              <path fillRule="nonzero" fillOpacity={1} d="M 27.5 7.53125 L 24.464844 4.542969 C 24.15625 4.238281 23.65625 4.238281 23.347656 4.542969 L 11.035156 16.667969 L 6.824219 12.523438 C 6.527344 12.230469 6 12.230469 5.703125 12.523438 L 2.640625 15.539062 C 2.332031 15.84375 2.332031 16.335938 2.640625 16.640625 L 10.445312 24.324219 C 10.59375 24.472656 10.796875 24.554688 11.007812 24.554688 C 11.214844 24.554688 11.417969 24.472656 11.566406 24.324219 L 27.5 8.632812 C 27.648438 8.488281 27.734375 8.289062 27.734375 8.082031 C 27.734375 7.875 27.648438 7.679688 27.5 7.53125 Z M 27.5 7.53125" fill="#664eff" />
-            </g></svg>Intensive data science curriculum covering <br />basic  to advance concepts
-        </li>
-        <li className="check-list-item">
-          <svg version={1.0} preserveAspectRatio="xMidYMid meet" height={16} viewBox="0 0 30 30.000001" zoomAndPan="magnify" width={16} xmlnsXlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" style={{color: 'rgb(102, 78, 255)'}}>
-            <defs>
-              <clipPath id="id1">
-                <path fill="#664eff" clipRule="nonzero" d="M 2.328125 4.222656 L 27.734375 4.222656 L 27.734375 24.542969 L 2.328125 24.542969 Z M 2.328125 4.222656" />
-              </clipPath>
-            </defs>
-            <g clipPath="url(#id1)">
-              <path fillRule="nonzero" fillOpacity={1} d="M 27.5 7.53125 L 24.464844 4.542969 C 24.15625 4.238281 23.65625 4.238281 23.347656 4.542969 L 11.035156 16.667969 L 6.824219 12.523438 C 6.527344 12.230469 6 12.230469 5.703125 12.523438 L 2.640625 15.539062 C 2.332031 15.84375 2.332031 16.335938 2.640625 16.640625 L 10.445312 24.324219 C 10.59375 24.472656 10.796875 24.554688 11.007812 24.554688 C 11.214844 24.554688 11.417969 24.472656 11.566406 24.324219 L 27.5 8.632812 C 27.648438 8.488281 27.734375 8.289062 27.734375 8.082031 C 27.734375 7.875 27.648438 7.679688 27.5 7.53125 Z M 27.5 7.53125" fill="#664eff" />
-            </g></svg>100+ Live Data Science classes, 8 PM to 10:30 <br />PM.  Lifetime access to all the class recordings
-        </li>
-        <li className="check-list-item">
-          <svg version={1.0} preserveAspectRatio="xMidYMid meet" height={16} viewBox="0 0 30 30.000001" zoomAndPan="magnify" width={16} xmlnsXlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" style={{color: 'rgb(102, 78, 255)'}}>
-            <defs>
-              <clipPath id="id1">
-                <path fill="#664eff" clipRule="nonzero" d="M 2.328125 4.222656 L 27.734375 4.222656 L 27.734375 24.542969 L 2.328125 24.542969 Z M 2.328125 4.222656" />
-              </clipPath>
-            </defs>
-            <g clipPath="url(#id1)">
-              <path fillRule="nonzero" fillOpacity={1} d="M 27.5 7.53125 L 24.464844 4.542969 C 24.15625 4.238281 23.65625 4.238281 23.347656 4.542969 L 11.035156 16.667969 L 6.824219 12.523438 C 6.527344 12.230469 6 12.230469 5.703125 12.523438 L 2.640625 15.539062 C 2.332031 15.84375 2.332031 16.335938 2.640625 16.640625 L 10.445312 24.324219 C 10.59375 24.472656 10.796875 24.554688 11.007812 24.554688 C 11.214844 24.554688 11.417969 24.472656 11.566406 24.324219 L 27.5 8.632812 C 27.648438 8.488281 27.734375 8.289062 27.734375 8.082031 C 27.734375 7.875 27.648438 7.679688 27.5 7.53125 Z M 27.5 7.53125" fill="#664eff" />
-            </g></svg>20+ capstone data science projects &amp; 1000+ <br />coding problems and assessments
-        </li>
-        <li className="check-list-item">
-          <svg version={1.0} preserveAspectRatio="xMidYMid meet" height={16} viewBox="0 0 30 30.000001" zoomAndPan="magnify" width={16} xmlnsXlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" style={{color: 'rgb(102, 78, 255)'}}>
-            <defs>
-              <clipPath id="id1">
-                <path fill="#664eff" clipRule="nonzero" d="M 2.328125 4.222656 L 27.734375 4.222656 L 27.734375 24.542969 L 2.328125 24.542969 Z M 2.328125 4.222656" />
-              </clipPath>
-            </defs>
-            <g clipPath="url(#id1)">
-              <path fillRule="nonzero" fillOpacity={1} d="M 27.5 7.53125 L 24.464844 4.542969 C 24.15625 4.238281 23.65625 4.238281 23.347656 4.542969 L 11.035156 16.667969 L 6.824219 12.523438 C 6.527344 12.230469 6 12.230469 5.703125 12.523438 L 2.640625 15.539062 C 2.332031 15.84375 2.332031 16.335938 2.640625 16.640625 L 10.445312 24.324219 C 10.59375 24.472656 10.796875 24.554688 11.007812 24.554688 C 11.214844 24.554688 11.417969 24.472656 11.566406 24.324219 L 27.5 8.632812 C 27.648438 8.488281 27.734375 8.289062 27.734375 8.082031 C 27.734375 7.875 27.648438 7.679688 27.5 7.53125 Z M 27.5 7.53125" fill="#664eff" />
-            </g></svg>50+ mock interviews with dedicated career coaches
-        </li>
-        <li className="check-list-item">
-          <svg version={1.0} preserveAspectRatio="xMidYMid meet" height={16} viewBox="0 0 30 30.000001" zoomAndPan="magnify" width={16} xmlnsXlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" style={{color: 'rgb(102, 78, 255)'}}>
-            <defs>
-              <clipPath id="id1">
-                <path fill="#664eff" clipRule="nonzero" d="M 2.328125 4.222656 L 27.734375 4.222656 L 27.734375 24.542969 L 2.328125 24.542969 Z M 2.328125 4.222656" />
-              </clipPath>
-            </defs>
-            <g clipPath="url(#id1)">
-              <path fillRule="nonzero" fillOpacity={1} d="M 27.5 7.53125 L 24.464844 4.542969 C 24.15625 4.238281 23.65625 4.238281 23.347656 4.542969 L 11.035156 16.667969 L 6.824219 12.523438 C 6.527344 12.230469 6 12.230469 5.703125 12.523438 L 2.640625 15.539062 C 2.332031 15.84375 2.332031 16.335938 2.640625 16.640625 L 10.445312 24.324219 C 10.59375 24.472656 10.796875 24.554688 11.007812 24.554688 C 11.214844 24.554688 11.417969 24.472656 11.566406 24.324219 L 27.5 8.632812 C 27.648438 8.488281 27.734375 8.289062 27.734375 8.082031 C 27.734375 7.875 27.648438 7.679688 27.5 7.53125 Z M 27.5 7.53125" fill="#664eff" />
-            </g></svg>Dual Certification
-        </li>
+      
+      <div className="pricing-note ">*Pay in easy EMIs starting at INR 7000 per month.</div>
+<br />
+      <ul className=" text-start ms-0 p-0" role="list">
+          <li className="check-list-item">
+          <i class="fw-bolder pe-1" style={{color: 'rgb(102, 78, 255)',}}>✓</i>
+              Intensive data science curriculum covering <br />basic  to advance concepts
+          </li>
+          <li className="check-list-item">
+          <i class="fw-bolder pe-1" style={{color: 'rgb(102, 78, 255)',}}>✓</i>
+            100+ Live Data Science classes, 8 PM to 10:30 <br />PM.  Lifetime access to all the class recordings
+          </li>
+          <li className="check-list-item">
+              <i class="fw-bolder pe-1" style={{color: 'rgb(102, 78, 255)',}}>✓</i>
+              20+ capstone data science projects &amp; 1000+ <br />coding problems and assessments
+          </li>
+          <li className="check-list-item">
+          <i class="fw-bolder pe-1" style={{color: 'rgb(102, 78, 255)',}}>✓</i>
+            50+ mock interviews with dedicated career coaches
+          </li>
+          <li className="check-list-item">
+          <i class="fw-bolder pe-1" style={{color: 'rgb(102, 78, 255)',}}>✓</i>
+            Dual Certification
+          </li>
       </ul>
       <br />
       <button className="button ">Enroll now</button>
@@ -1244,7 +1177,7 @@ export default function Course() {
 
 
     
-    
+{/* card Course fees end */}
 
    <Footer/>
 
