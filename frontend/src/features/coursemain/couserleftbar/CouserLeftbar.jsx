@@ -14,6 +14,7 @@ import { FaYoutube } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { BsDiscord } from "react-icons/bs";
+import Footer from '../../../comman/Footer';
 export default function CouserLeftbar() {
   const [clicked, setClicked] = useState(null);
 
@@ -79,12 +80,14 @@ export default function CouserLeftbar() {
         <p>Mentorship</p>
       </div>
       </Link>
+      <Link to="/CourseMain/jobboard">
       <div className={`job-bord-left ${clicked === 'job-bord' ? 'clicked' : ''}`} onClick={() => handleClick('job-bord')}>
         <div className="logo" style={{color:"black"}}>
           <MdWork />
         </div>
         <p>Jobboard</p>
       </div>
+      </Link>
       <div className={`refer-eran-left ${clicked === 'refer-eran' ? 'clicked' : ''}`} onClick={() => handleClick('refer-eran')}>
         <div className="logo" style={{color:"black"}}>
           <AiOutlineUsergroupAdd />
@@ -109,6 +112,7 @@ export default function CouserLeftbar() {
 
         </div>
       </div>
+     
     </div>
   );
 }

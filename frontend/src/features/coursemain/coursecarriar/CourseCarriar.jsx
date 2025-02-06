@@ -1,8 +1,10 @@
 import React from 'react'
 import progressbar from '../Images/progressbar.png'
 import { FaChevronDown } from "react-icons/fa";
+import Footer from '../../../comman/Footer';
 export default function CourseCarriar() {
     return (
+        <>
         <div className='bg-gray-100 h-[80vh] p-3'>
             <div className='flex bg-white p-4 rounded-md'>
                 <div className='w-4/5 p-4'>
@@ -31,6 +33,15 @@ export default function CourseCarriar() {
                 </div>
                 <FaChevronDown className='text-2xl  ml-8' />
             </div>
+           
         </div>
+
+       <div className='mt-32'>
+       <Footer></Footer>
+      
+       </div>
+       
+       
+        </>
     )
 }

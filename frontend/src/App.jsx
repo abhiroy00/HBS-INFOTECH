@@ -28,7 +28,6 @@ import IdentityandAccess from './features/services/services_pages/IdentityandAcc
 import SoftwareAuditing from './features/services/services_pages/SoftwareAuditing/SoftwareAuditing';
 import SecurityAudit from './features/services/SecurityAudit/SecurityAudit';
 import NearshoringServices from './features/services/services_pages/NearshoringServices/NearshoringServices';
-
 import FinancialServices from './features/industries/industriesPages/FinancialServices/FinancialServices';
 import Telecom from './features/industries/industriesPages/Telecom/Telecom';
 import Media_Entertainment from './features/industries/industriesPages/Media&Entertainment/Media_Entertainment';
@@ -51,6 +50,8 @@ import Manage_Booking from './features/coursemain/Mentorship/Mentorship_children
 import CourseCarriar from './features/coursemain/coursecarriar/CourseCarriar';
 import RegisterPage from './features/auth/Register/RegisterPage';
 import Login from './features/auth/Login/Login';
+import Jobboard from './features/coursemain/Jobboard/Jobboard';
+import PrivateRoute from './features/auth/Private/PrivateRoute';
 
 
 
@@ -101,7 +102,10 @@ function App() {
     },
     {
       path:"/course",
-      element:<Course></Course>
+      element:
+     
+      <Course></Course>
+     
     },
     {
       path:"/Discusswithus",
@@ -206,7 +210,11 @@ function App() {
     },
     {
       path:"/CourseMain",
-      element:<CourseMain></CourseMain>,
+      element:
+      
+      <CourseMain></CourseMain>
+   
+      ,
       children:[
         {
           path:"/CourseMain/courseHome",
@@ -227,6 +235,11 @@ function App() {
         {
           path:"/CourseMain/CourseCarriar",
           element:<CourseCarriar></CourseCarriar>
+        },
+        {
+          path:"/CourseMain/jobboard",
+          element:<Jobboard></Jobboard>
+
         },
         {
           path:"/CourseMain/CourseClassroom",
@@ -261,7 +274,8 @@ function App() {
             {
               path:"/CourseMain/Mentorship/Manage_Booking",
               element:<Manage_Booking></Manage_Booking>
-            }
+            },
+           
           ]
         }
       ]

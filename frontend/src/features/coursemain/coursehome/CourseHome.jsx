@@ -1,5 +1,6 @@
 import { FaArrowRight } from "react-icons/fa";
 import { IoShareSocialOutline } from "react-icons/io5";
+import Footer from '../../../comman/Footer'
 
 export default function CourseHome() {
   return (
@@ -219,6 +220,9 @@ export default function CourseHome() {
         <div className="flex justify-center">
           <button className="bg-white text-red-500 py-2 px-5 border-2 font-semibold border-red-500 my-5">Talk to a Mentor</button>
         </div>
+      </div>
+      <div className="w-full h-full">
+      <Footer></Footer>
       </div>
     </div>
 

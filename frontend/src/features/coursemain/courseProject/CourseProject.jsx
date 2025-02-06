@@ -2,6 +2,7 @@ import React from 'react'
 import image1 from '../../../assets/icons/product-main.png'
 import { FaArrowRight } from "react-icons/fa";
 import { IoShareSocialOutline } from "react-icons/io5";
+import Footer from '../../../comman/Footer';
 export default function CourseProject() {
   return (
     <div className='bg-gray-100 p-5'>
@@ -427,6 +428,7 @@ export default function CourseProject() {
           </div>
         </div>
       </div>
+      <Footer></Footer>
     </div>
   )
 }

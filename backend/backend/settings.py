@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'video',
     'storages',
     's3direct',
+    'jobboard'
 ]
 
 MIDDLEWARE = [

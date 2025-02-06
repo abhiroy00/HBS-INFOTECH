@@ -1,4 +1,5 @@
 import { IoShareSocialOutline } from "react-icons/io5";
+import Footer from "../../../comman/Footer";
 export default function CourseLearn() {
   return (
     <div className="bg-gray-100 p-3">
@@ -64,6 +65,7 @@ export default function CourseLearn() {
           </div>
         </div>
       </div>
+      <Footer></Footer>
     </div>
   )
 }

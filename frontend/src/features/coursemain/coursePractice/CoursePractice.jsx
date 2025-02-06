@@ -4,6 +4,7 @@ import { useEffect } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css'
 
 import ReactPaginate from 'react-paginate'
+import Footer from '../../../comman/Footer';
 
 export default function CoursePractice() {
   const [Allproblems, setAllproblems] = useState([
@@ -986,6 +987,11 @@ const handlePageClick = (selectedItem) => {
   </div>
 </div> 
  */}
+
+</div>
+
+<div className='mt-10'>
+  <Footer></Footer>
 
 </div>
 
