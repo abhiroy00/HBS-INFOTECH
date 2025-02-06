@@ -16,12 +16,12 @@ export default function Header() {
 
   return (
     <div>
-      <header className="py-3">
-        <div className="container d-flex justify-content-between align-items-center">
+      <header className="">
+        <div  className="m-auto d-flex justify-content-between align-items-center" style={{width:"90%"}}>
           {/* Left Side */}
           <div className='top'>
-            <div className="logo d-flex align-items-center"></div>
-            <h1 className="mb-0 fs-4 fw-bold text-white">HBS INFOTECH</h1>
+            <div className="logo d-flex align-items-center w-100"></div>
+            <h1 className="mb-0 fs-4 fw-bold text-white w-100 mb-2">HBS INFOTECH</h1>
           </div>
 
           {/* Right Side */}
@@ -50,14 +50,14 @@ export default function Header() {
               </li>
 
               {/* Services Link with Hover */}
-              <li 
-                className="nav-item services" 
+              <li className="nav-item services" 
                 onMouseEnter={() => setIsHoveringServices(true)} 
                 onMouseLeave={() => setIsHoveringServices(false)}
               >
                 <Link className="nav-link text-white" to="/solutions">Services</Link>
                 {/* Conditionally show the dropdown */}
-                <div align='left' className={`services-dropdown ${isHoveringServices ? 'show' : ''}`}>
+                <div align='left' className={` bg-white services-dropdown ${isHoveringServices ? 'show' : ''}` }
+                 style={{zIndex:"100"}}>
                   <div className="services-menu">
                     <div className="services-left-side" style={{position:"relative",left:"30px"}}>
                       <h1 className='m-5'>AI expertise tailored to business goals </h1>
@@ -155,7 +155,7 @@ export default function Header() {
                 onMouseEnter={() => setIsHoveringIndustries(true)} 
                 onMouseLeave={() => setIsHoveringIndustries(false)}
               >
-                <Link className="nav-link text-white" to="/industries">Industries</Link>
+                <Link className="nav-link text-white" to="#">Industries</Link>
                 <div className={`industries-dropdown ${isHoveringIndustries ? 'show' : ''}`}>
                   <div className="industries-menu">
                     <ul>
