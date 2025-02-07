@@ -386,16 +386,7 @@ h2{
     font-size: 30px;
 }
 
-.btn{
-    position: absolute;
-    font-size: 3em;
-    border-radius: 50%;
-    height: 80px;
-    width: 80px;
-    color: rgb(255, 25, 0);
-    background-color: white;
-    display: none;
-}
+
 .left{
     top: 5em;
     left: 4em;
@@ -405,10 +396,7 @@ h2{
     top: 5.8em;
     transform: translateY(-50%);
 }
-.btn:hover{
-    background-color: white;
-    color: rgb(255, 25, 0);
-}
+
 
 .auto_slider:hover .btn{
     display: block;
