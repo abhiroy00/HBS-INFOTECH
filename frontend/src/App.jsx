@@ -44,6 +44,7 @@ import CourseClassroom from './features/coursemain/courseClassroom/CourseClassro
 import Upcoming from './features/coursemain/courseClassroom/classroom_children/upcoming';
 import Completed from './features/coursemain/courseClassroom/classroom_children/Completed';
 import Mentorship from './features/coursemain/Mentorship/Mentorship';
+import Referearn from './features/coursemain/courseReferearn/Referearn';        
 import Book_a_session from './features/coursemain/Mentorship/Mentorship_children/Book_a_session';
 import Previous_Booking from './features/coursemain/Mentorship/Mentorship_children/Previous_Booking';
 import Manage_Booking from './features/coursemain/Mentorship/Mentorship_children/Manage_Booking';
@@ -239,6 +240,11 @@ function App() {
         {
           path:"/CourseMain/jobboard",
           element:<Jobboard></Jobboard>
+
+        },
+        {
+          path:"/CourseMain/Referearn",
+          element:<Referearn></Referearn>
 
         },
         {

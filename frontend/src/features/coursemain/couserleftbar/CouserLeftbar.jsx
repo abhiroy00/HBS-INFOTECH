@@ -88,12 +88,14 @@ export default function CouserLeftbar() {
         <p>Jobboard</p>
       </div>
       </Link>
+      <Link to="/CourseMain/Referearn">
       <div className={`refer-eran-left ${clicked === 'refer-eran' ? 'clicked' : ''}`} onClick={() => handleClick('refer-eran')}>
         <div className="logo" style={{color:"black"}}>
           <AiOutlineUsergroupAdd />
         </div>
-        <p>Refereran</p >
+        <p>Refer&earn</p >
       </div>
+      </Link>
       <div className={`community-left ${clicked === 'community' ? 'clicked' : ''}`} onClick={() => handleClick('community')}>
         <div className="logo" style={{color:"black"}}>
           <IoIosPeople />
